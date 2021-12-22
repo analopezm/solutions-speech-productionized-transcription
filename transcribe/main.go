@@ -57,7 +57,7 @@ var (
 	pendingWordCount   = flag.Int("pendingWordCount", 4, "Treat last N transcribed words as pending")
 	sampleRate         = flag.Int("sampleRate", 16000, "Sample rate (Hz)")
 	channels           = flag.Int("channels", 1, "Number of audio channels")
-	lang               = flag.String("lang", "en-US", "Transcription language code")
+	lang               = flag.String("lang", "es-ES", "Transcription language code")
 	phrases            = flag.String("phrases", "", "Comma-separated list of phrase hints for Speech API. Phrases with spaces should be quoted")
 
 	redisClient        *redis.Client
